@@ -1,15 +1,9 @@
-# Image-to-Doc-Converter
+# Image to Doc Converter
 
-## Contents:
-- [Description](#Description)
-- [How to use](#How%20to%20use)
-- [Screenshot](#Screenshot)
-- [Download](#Download)
+## Description
+Image to doc converter tool helps to translate JPG or PNG images to word with the assistance of a text scanner and saves the text in a document file.
 
-## Description:
-Image to doc converter tool helps to translate JPG or PNG images to word with the assistance of text scanner.
-
-## How to use:
+## How to use
 1. Install Python 3.8.X from [here](https://www.python.org/downloads/).
 2. Install tkinter `pip install tkinter`.
 3. Install pillow from `pip install pillow`.
@@ -20,9 +14,9 @@ Image to doc converter tool helps to translate JPG or PNG images to word with th
 8. Click on `Browse a file` button and choose an image file.
 9. Click on `Convert` button to convert the image file to doc file.
 
-## Screenshot:
+## Screenshot
 <img src="screenshots/screenshot-01.png" alt="Screenshot-01">
 <img src="screenshots/screenshot-02.png" alt="Screenshot-02">
 
-## Download:
+## Download
 [Download Here](https://github.com/iam-hasibul/Image-to-Doc-Converter/blob/main/Image%20to%20Doc%20Converter-1.0-win32.msi)
