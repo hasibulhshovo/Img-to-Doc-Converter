@@ -6,7 +6,7 @@ from tkinter import filedialog, messagebox
 
 root = Tk()  # creating tkinter window
 root.geometry('500x200')  # setting window size
-root.title('Image to Doc Converter')  # setting window title
+root.title('Img to Doc Converter')  # setting window title
 root.wm_iconbitmap('icon.ico')  # setting window icon
 
 # calling pytesseract from directory
@@ -48,15 +48,15 @@ def imgtotext():
         messagebox.showinfo(title='Warning', message='Please choose a correct file!')
 
 # label
-l1 = Label(root, text='Image to Doc Converter', font=('roboto bold', 20)).place(relx=0.5, rely=0.2, anchor=CENTER)
+l1 = Label(root, text='Img to Doc Converter', font=('roboto bold', 20)).place(relx=0.5, rely=0.2, anchor=CENTER)
 # variable
 path = StringVar()
 # entry
 e1 = Entry(root, width=50, textvariable=path).place(relx=0.4, rely=0.5, anchor=CENTER)
 # buttons
 b1 = Button(root, text='Browse a file', font=('roboto', 10), command=browsefunc).place(relx=0.85, rely=0.5, anchor=CENTER)
-b2 = Button(root, text='Convert', font=('roboto bold', 10), bg='green', fg='white', command=imgtotext).place(relx=0.3, rely=0.75, anchor=CENTER)
-b3 = Button(root, text='Source Folder', font=('roboto bold', 10), bg='gray', fg='white', command=source_dir).place(relx=0.5, rely=0.75, anchor=CENTER)
-b4 = Button(root, text='Open File', font=('roboto bold', 10), bg='gray', fg='white', command=file_dir).place(relx=0.7, rely=0.75, anchor=CENTER)
+b2 = Button(root, text='Output Folder', font=('roboto bold', 10), bg='gray', fg='white', command=source_dir).place(relx=0.3, rely=0.75, anchor=CENTER)
+b3 = Button(root, text='Convert', font=('roboto bold', 10), bg='green', fg='white', command=imgtotext).place(relx=0.5, rely=0.75, anchor=CENTER)
+b4 = Button(root, text='Output File', font=('roboto bold', 10), bg='gray', fg='white', command=file_dir).place(relx=0.7, rely=0.75, anchor=CENTER)
 
 root.mainloop()
