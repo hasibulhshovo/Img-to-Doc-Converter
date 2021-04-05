@@ -20,4 +20,4 @@ Image to doc converter tool helps to translate JPG or PNG images to word with th
 <img src="screenshots/screenshot-03.png" alt="Screenshot-03">
 
 ## Download Software
-[Download Here](https://github.com/iam-hasibul/Img-to-Doc-Converter/blob/main/Img%20to%20Doc%20Converter.exe)
+[Img to Doc Converter (v1.0)](https://github.com/iam-hasibul/Img-to-Doc-Converter/blob/main/Img%20to%20Doc%20Converter.exe)
